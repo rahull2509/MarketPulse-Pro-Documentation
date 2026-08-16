@@ -79,3 +79,6 @@ Phase 3 (CODE) begins only after the following conditions are met:
 - [x] Open architectural decisions identified
 - [x] No critical documentation conflicts remain
 *(Only BLOCKING decisions prevent Phase 3 implementation. Non-blocking/Deferred do not).*
+
+## PUBLICATION STATUS
+This repository is published as the authoritative Architecture package for MarketPulse Pro and is intentionally scoped to architecture, governance, and evidence artifacts only. The branch represents the corrected Architecture-only source of truth and is kept separate from unrelated project code and legacy repo roots.
