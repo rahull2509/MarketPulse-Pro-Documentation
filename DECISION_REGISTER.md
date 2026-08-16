@@ -2,6 +2,9 @@
 
 This register records architectural and product decisions, ensuring strict traceability to approved MarketPulse Pro sources.
 
+## Decision Summary
+The repository establishes a clear separation between resolved platform architecture and pending product-specific integrations. The approved core stack, modular monolith pattern, WebSocket realtime model, and multi-broker UI scope are treated as fixed decision anchors, while broker-adapter contracts and deployment specifics remain intentionally deferred until they are documented and approved.
+
 ## Resolved Decisions
 
 **DECISION ID**: DEC-ARCH-001

@@ -7,6 +7,12 @@ This is the authoritative navigation index for MarketPulse Pro.
 - [AGENTS.md](AGENTS.md)
 - [00_Enterprise_AI_Operating_Manual.md](00_Enterprise_AI_Operating_Manual.md)
 
+## Evidence & Quality Gates
+- Architecture is treated as the authoritative specification for MarketPulse Pro, not a loose working note.
+- All decisions are mapped to explicit evidence files, with unresolved items clearly marked as pending or deferred.
+- Phase 3 readiness is gated on documentation audits, product scope alignment, dependency validation, and decision traceability.
+- Architecture work intentionally excludes legacy assumptions from older MarketPulse work unless they are explicitly approved in the current project.
+
 ## Core Governance & Traceability
 - [DOCUMENTATION_CHANGELOG.md](DOCUMENTATION_CHANGELOG.md)
 - [DECISION_REGISTER.md](DECISION_REGISTER.md)
