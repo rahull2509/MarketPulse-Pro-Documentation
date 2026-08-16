@@ -89,3 +89,9 @@ The Phase 3 implementation is **NOT globally blocked**. Readiness is evaluated b
 
 - **BROKER INTEGRATION READINESS**: `CONDITIONAL / BLOCKED`
   - *Blocked ONLY for the provider-specific adapter implementations pending DEC-ARCH-004C/D/E. Abstract architecture implementation is safe.*
+
+## 7. Operational Handoff Note
+
+This baseline exists to keep architecture decision-making disciplined. Approved technologies may be implemented in the correct domain boundaries without implying that every integration contract is already complete. This distinction is intentional and necessary for honest engineering execution.
+
+If a feature depends on provider-specific broker APIs, cloud object storage, or historical data-lake formats, it must remain clearly marked as pending until the corresponding decisions are formally documented and accepted.

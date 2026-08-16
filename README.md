@@ -419,6 +419,19 @@ These are engineering estimates, not measured production results:
 
 This target range is an architectural design estimate, not an empirically validated production benchmark.
 
+## 25. Architecture Governance Summary
+
+This Architecture package is the controlled source of truth for MarketPulse Pro. It separates the approved platform architecture from the pending provider-specific integrations and intentionally does not confuse UI-level broker references with backend implementation readiness.
+
+The repository establishes four clear governance principles:
+
+1. do not treat historical MarketPulse artifacts as current project truth unless they are explicitly approved
+2. use decision records and traceability files instead of verbal assumptions
+3. permit Phase 3 implementation only in approved domains and with explicit blocker tracking
+4. keep architecture documentation conservative, evidence-based, and aligned to the actual project state
+
+This makes the folder suitable as the documentation backbone for engineering delivery while keeping unresolved broker contracts and cloud/storage decisions visible rather than silently assumed.
+
 ## 25. Cost Considerations
 
 The repository does not provide vendor-specific pricing, but the major cost categories are evident:
